@@ -1,60 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.10.12 on win32)" generated="20251116 12:40:08.692" rpa="false" schemaversion="3">
+<robot generator="Robot 7.3.2 (Python 3.11.5 on win32)" generated="2025-11-17T14:11:16.332063" rpa="false" schemaversion="5">
 <suite id="s1" name="Robot-Meu-Timao" source="c:\Projects\robot-meu-timao\robot-meu-timao">
 <suite id="s1-s1" name="Tests" source="c:\Projects\robot-meu-timao\robot-meu-timao\tests">
 <suite id="s1-s1-s1" name="Exemplo" source="c:\Projects\robot-meu-timao\robot-meu-timao\tests\exemplo.robot">
 <test id="s1-s1-s1-t1" name="Abrir Google E Verificar Titulo" line="5">
-<kw name="New Browser">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-11-17T14:11:16.619588" level="INFO">{"browser": "chromium", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Projects\\robot-meu-timao\\browser\\traces\\temp\\60574290-4ad0-4e15-ae7f-a895cb231d22"}</msg>
+<msg time="2025-11-17T14:11:16.648586" level="INFO">Starting Browser process C:\Projects\robot-meu-timao\venv\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:64403</msg>
+<msg time="2025-11-17T14:11:17.791850" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":true,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Projects\\robot-meu-timao\\browser\\traces\\temp\\60574290-4ad0-4e15-ae7f-a895cb231d22"}</msg>
 <arg>chromium</arg>
-<msg timestamp="20251116 12:40:08.768" level="FAIL">No keyword with name 'New Browser' found.</msg>
-<status status="FAIL" starttime="20251116 12:40:08.768" endtime="20251116 12:40:08.769"/>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-11-17T14:11:16.618584" elapsed="1.173266"/>
 </kw>
-<kw name="New Page">
-<arg>https://www.google.com</arg>
-<status status="NOT RUN" starttime="20251116 12:40:08.771" endtime="20251116 12:40:08.772"/>
+<kw name="New Page" owner="Browser">
+<msg time="2025-11-17T14:11:23.232518" level="INFO">Successfully initialized new page object and opened url: https://ge.globo.com/</msg>
+<msg time="2025-11-17T14:11:23.233516" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>https://ge.globo.com/</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-11-17T14:11:17.793853" elapsed="5.439663"/>
 </kw>
-<kw name="Get Title">
+<kw name="Get Title" owner="Browser">
+<msg time="2025-11-17T14:11:23.253515" level="INFO">Title: 'ge.globo - É esporte sempre'</msg>
 <arg>==</arg>
-<arg>Google</arg>
-<status status="NOT RUN" starttime="20251116 12:40:08.773" endtime="20251116 12:40:08.773"/>
+<arg>ge.globo - É esporte sempre</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the title of the current page.</doc>
+<status status="PASS" start="2025-11-17T14:11:23.235515" elapsed="0.018997"/>
 </kw>
-<status status="FAIL" starttime="20251116 12:40:08.765" endtime="20251116 12:40:08.774">No keyword with name 'New Browser' found.</status>
+<msg time="2025-11-17T14:11:23.274514" level="INFO">Switching context to context=0e572115-4630-48e7-87a1-91d64ae0fec8 in CURRENT</msg>
+<msg time="2025-11-17T14:11:23.283517" level="INFO">Successfully changed active context: context=0e572115-4630-48e7-87a1-91d64ae0fec8</msg>
+<msg time="2025-11-17T14:11:23.302515" level="INFO">Successfully closed Context</msg>
+<status status="PASS" start="2025-11-17T14:11:16.616580" elapsed="6.638936"/>
 </test>
-<status status="FAIL" starttime="20251116 12:40:08.752" endtime="20251116 12:40:08.776"/>
+<status status="PASS" start="2025-11-17T14:11:16.362065" elapsed="6.943448"/>
 </suite>
-<status status="FAIL" starttime="20251116 12:40:08.749" endtime="20251116 12:40:08.777"/>
+<status status="PASS" start="2025-11-17T14:11:16.360063" elapsed="6.956454"/>
 </suite>
-<status status="FAIL" starttime="20251116 12:40:08.712" endtime="20251116 12:40:08.779"/>
+<status status="PASS" start="2025-11-17T14:11:16.337063" elapsed="6.986459"/>
 </suite>
 <statistics>
 <total>
-<stat pass="0" fail="1" skip="0">All Tests</stat>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="0" fail="1" skip="0" id="s1" name="Robot-Meu-Timao">Robot-Meu-Timao</stat>
-<stat pass="0" fail="1" skip="0" id="s1-s1" name="Tests">Robot-Meu-Timao.Tests</stat>
-<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="Exemplo">Robot-Meu-Timao.Tests.Exemplo</stat>
+<stat name="Robot-Meu-Timao" id="s1" pass="1" fail="0" skip="0">Robot-Meu-Timao</stat>
+<stat name="Tests" id="s1-s1" pass="1" fail="0" skip="0">Robot-Meu-Timao.Tests</stat>
+<stat name="Exemplo" id="s1-s1-s1" pass="1" fail="0" skip="0">Robot-Meu-Timao.Tests.Exemplo</stat>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20251116 12:40:08.757" level="ERROR">Error in file 'c:\Projects\robot-meu-timao\robot-meu-timao\tests\exemplo.robot' on line 2: Importing library 'Browser' failed: ModuleNotFoundError: No module named 'Browser'
-Traceback (most recent call last):
-  None
-PYTHONPATH:
-  c:\Users\Administrador\.vscode\extensions\robocorp.robotframework-lsp-1.13.0\src\robotframework_debug_adapter
-  C:\Projects\robot-meu-timao
-  c:\Users\Administrador\.vscode\extensions\robocorp.robotframework-lsp-1.13.0\src
-  c:\Users\Administrador\.vscode\extensions\robocorp.robotframework-lsp-1.13.0\src\robotframework_ls\vendored
-  c:\ProgramData\robocorp\ht\cfd36c9_b1f3c24_66529ced\python310.zip
-  c:\ProgramData\robocorp\ht\cfd36c9_b1f3c24_66529ced\DLLs
-  c:\ProgramData\robocorp\ht\cfd36c9_b1f3c24_66529ced\lib
-  c:\ProgramData\robocorp\ht\cfd36c9_b1f3c24_66529ced
-  c:\ProgramData\robocorp\ht
-  c:\ProgramData\robocorp\ht\cfd36c9_b1f3c24_66529ced\lib\site-packages
-  c:\ProgramData\robocorp\ht\cfd36c9_b1f3c24_66529ced\lib\site-packages\win32
-  c:\ProgramData\robocorp\ht\cfd36c9_b1f3c24_66529ced\lib\site-packages\win32\lib
-  c:\ProgramData\robocorp\ht\cfd36c9_b1f3c24_66529ced\lib\site-packages\Pythonwin</msg>
 </errors>
 </robot>

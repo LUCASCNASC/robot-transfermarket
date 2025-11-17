@@ -1,0 +1,9 @@
+{
+    "robot.python.executable": "C:\\Projects\\robot-meu-timao\\venv\\Scripts\\python.exe",
+    "robot.libraries": [
+        "Browser"
+    ],
+    "robot.language-server.python": "C:\\Projects\\robot-meu-timao\\venv\\Scripts\\python.exe",
+    "robot.python.robocorpHome": "",
+    "python.pythonPath": "C:\\Projects\\robot-meu-timao\\venv\\Scripts\\python.exe"
+}
