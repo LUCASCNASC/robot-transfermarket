@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.3.2 (Python 3.11.5 on win32)" generated="2025-11-17T14:11:16.332063" rpa="false" schemaversion="5">
-<suite id="s1" name="Robot-Meu-Timao" source="c:\Projects\robot-meu-timao\robot-meu-timao">
-<suite id="s1-s1" name="Tests" source="c:\Projects\robot-meu-timao\robot-meu-timao\tests">
-<suite id="s1-s1-s1" name="Exemplo" source="c:\Projects\robot-meu-timao\robot-meu-timao\tests\exemplo.robot">
-<test id="s1-s1-s1-t1" name="Abrir Google E Verificar Titulo" line="5">
+<robot generator="Robot 7.3.2 (Python 3.11.5 on win32)" generated="2025-11-17T14:22:35.680115" rpa="false" schemaversion="5">
+<suite id="s1" name="Robot-Transfermarket" source="c:\Projects\robot-meu-timao\robot-transfermarket">
+<suite id="s1-s1" name="Tests" source="c:\Projects\robot-meu-timao\robot-transfermarket\tests">
+<suite id="s1-s1-s1" name="Login" source="c:\Projects\robot-meu-timao\robot-transfermarket\tests\login.robot">
+<test id="s1-s1-s1-t1" name="Abrir GE e Verificar Titulo" line="5">
 <kw name="New Browser" owner="Browser">
-<msg time="2025-11-17T14:11:16.619588" level="INFO">{"browser": "chromium", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Projects\\robot-meu-timao\\browser\\traces\\temp\\60574290-4ad0-4e15-ae7f-a895cb231d22"}</msg>
-<msg time="2025-11-17T14:11:16.648586" level="INFO">Starting Browser process C:\Projects\robot-meu-timao\venv\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:64403</msg>
-<msg time="2025-11-17T14:11:17.791850" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":true,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Projects\\robot-meu-timao\\browser\\traces\\temp\\60574290-4ad0-4e15-ae7f-a895cb231d22"}</msg>
+<msg time="2025-11-17T14:22:35.970237" level="INFO">{"browser": "chromium", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Projects\\robot-meu-timao\\browser\\traces\\temp\\5e9c4973-c647-4bcf-a671-2ea0194eb176"}</msg>
+<msg time="2025-11-17T14:22:36.001240" level="INFO">Starting Browser process C:\Projects\robot-meu-timao\venv\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:55972</msg>
+<msg time="2025-11-17T14:22:37.147020" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":true,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Projects\\robot-meu-timao\\browser\\traces\\temp\\5e9c4973-c647-4bcf-a671-2ea0194eb176"}</msg>
 <arg>chromium</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2025-11-17T14:11:16.618584" elapsed="1.173266"/>
+<status status="PASS" start="2025-11-17T14:22:35.969237" elapsed="1.177783"/>
 </kw>
 <kw name="New Page" owner="Browser">
-<msg time="2025-11-17T14:11:23.232518" level="INFO">Successfully initialized new page object and opened url: https://ge.globo.com/</msg>
-<msg time="2025-11-17T14:11:23.233516" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
-<arg>https://ge.globo.com/</arg>
+<msg time="2025-11-17T14:22:38.908095" level="INFO">Successfully initialized new page object and opened url: https://www.transfermarkt.com.br/</msg>
+<msg time="2025-11-17T14:22:38.908095" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>https://www.transfermarkt.com.br/</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="PASS" start="2025-11-17T14:11:17.793853" elapsed="5.439663"/>
+<status status="PASS" start="2025-11-17T14:22:37.148032" elapsed="1.760063"/>
 </kw>
 <kw name="Get Title" owner="Browser">
-<msg time="2025-11-17T14:11:23.253515" level="INFO">Title: 'ge.globo - É esporte sempre'</msg>
+<msg time="2025-11-17T14:22:38.921096" level="INFO">Title: 'Mercado de transferências, rumores, valores de mercado e notícias | Transfermarkt'</msg>
 <arg>==</arg>
-<arg>ge.globo - É esporte sempre</arg>
+<arg>Mercado de transferências, rumores, valores de mercado e notícias | Transfermarkt</arg>
 <tag>Assertion</tag>
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns the title of the current page.</doc>
-<status status="PASS" start="2025-11-17T14:11:23.235515" elapsed="0.018997"/>
+<status status="PASS" start="2025-11-17T14:22:38.909100" elapsed="0.011996"/>
 </kw>
-<msg time="2025-11-17T14:11:23.274514" level="INFO">Switching context to context=0e572115-4630-48e7-87a1-91d64ae0fec8 in CURRENT</msg>
-<msg time="2025-11-17T14:11:23.283517" level="INFO">Successfully changed active context: context=0e572115-4630-48e7-87a1-91d64ae0fec8</msg>
-<msg time="2025-11-17T14:11:23.302515" level="INFO">Successfully closed Context</msg>
-<status status="PASS" start="2025-11-17T14:11:16.616580" elapsed="6.638936"/>
+<msg time="2025-11-17T14:22:38.997934" level="INFO">Switching context to context=bad8f279-e0f7-4898-9e5c-9cf2249302ab in CURRENT</msg>
+<msg time="2025-11-17T14:22:39.008934" level="INFO">Successfully changed active context: context=bad8f279-e0f7-4898-9e5c-9cf2249302ab</msg>
+<msg time="2025-11-17T14:22:39.015935" level="INFO">Successfully closed Context</msg>
+<status status="PASS" start="2025-11-17T14:22:35.968238" elapsed="2.953856"/>
 </test>
-<status status="PASS" start="2025-11-17T14:11:16.362065" elapsed="6.943448"/>
+<status status="PASS" start="2025-11-17T14:22:35.724112" elapsed="3.294833"/>
 </suite>
-<status status="PASS" start="2025-11-17T14:11:16.360063" elapsed="6.956454"/>
+<status status="PASS" start="2025-11-17T14:22:35.719112" elapsed="3.305822"/>
 </suite>
-<status status="PASS" start="2025-11-17T14:11:16.337063" elapsed="6.986459"/>
+<status status="PASS" start="2025-11-17T14:22:35.685114" elapsed="3.340822"/>
 </suite>
 <statistics>
 <total>
@@ -51,9 +51,9 @@
 <tag>
 </tag>
 <suite>
-<stat name="Robot-Meu-Timao" id="s1" pass="1" fail="0" skip="0">Robot-Meu-Timao</stat>
-<stat name="Tests" id="s1-s1" pass="1" fail="0" skip="0">Robot-Meu-Timao.Tests</stat>
-<stat name="Exemplo" id="s1-s1-s1" pass="1" fail="0" skip="0">Robot-Meu-Timao.Tests.Exemplo</stat>
+<stat name="Robot-Transfermarket" id="s1" pass="1" fail="0" skip="0">Robot-Transfermarket</stat>
+<stat name="Tests" id="s1-s1" pass="1" fail="0" skip="0">Robot-Transfermarket.Tests</stat>
+<stat name="Login" id="s1-s1-s1" pass="1" fail="0" skip="0">Robot-Transfermarket.Tests.Login</stat>
 </suite>
 </statistics>
 <errors>

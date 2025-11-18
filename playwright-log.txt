@@ -1,30 +1,30 @@
-{"level":30,"time":"2025-11-17T17:11:17.268Z","pid":17988,"hostname":"DESKTOP-VMRN7M2","msg":"Listening on 127.0.0.1:64403"}
-{"level":30,"time":"2025-11-17T17:11:17.703Z","pid":17988,"hostname":"DESKTOP-VMRN7M2","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2025-11-17T17:11:17.789Z","pid":17988,"hostname":"DESKTOP-VMRN7M2","msg":"Adding browser to stack: chromium, version: 141.0.7390.37"}
-{"level":30,"time":"2025-11-17T17:11:17.789Z","pid":17988,"hostname":"DESKTOP-VMRN7M2","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2025-11-17T17:11:17.789Z","pid":17988,"hostname":"DESKTOP-VMRN7M2","msg":"End of node method newBrowser"}
-{"level":30,"time":"2025-11-17T17:11:17.798Z","pid":17988,"hostname":"DESKTOP-VMRN7M2","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-11-17T17:11:17.798Z","pid":17988,"hostname":"DESKTOP-VMRN7M2","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@a729de38f7453bb4d55c7e44e7ef6933\"},\"headless\":true,\"_contextStack\":[],\"id\":\"browser=0768c69f-1bb2-4ad6-a3ea-14423877657b\"}"}
-{"level":30,"time":"2025-11-17T17:11:17.809Z","pid":17988,"hostname":"DESKTOP-VMRN7M2","msg":"Setting default timeout for context context=0e572115-4630-48e7-87a1-91d64ae0fec8 to 10000"}
-{"level":30,"time":"2025-11-17T17:11:17.809Z","pid":17988,"hostname":"DESKTOP-VMRN7M2","msg":"Changed active context: context=0e572115-4630-48e7-87a1-91d64ae0fec8"}
-{"level":30,"time":"2025-11-17T17:11:17.868Z","pid":17988,"hostname":"DESKTOP-VMRN7M2","msg":"Video path: undefined"}
-{"level":30,"time":"2025-11-17T17:11:17.868Z","pid":17988,"hostname":"DESKTOP-VMRN7M2","msg":"Changed active page"}
-{"level":30,"time":"2025-11-17T17:11:23.229Z","pid":17988,"hostname":"DESKTOP-VMRN7M2","msg":"End of node method newPage"}
-{"level":30,"time":"2025-11-17T17:11:23.261Z","pid":17988,"hostname":"DESKTOP-VMRN7M2","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-11-17T17:11:23.263Z","pid":17988,"hostname":"DESKTOP-VMRN7M2","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-11-17T17:11:23.267Z","pid":17988,"hostname":"DESKTOP-VMRN7M2","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-11-17T17:11:23.268Z","pid":17988,"hostname":"DESKTOP-VMRN7M2","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-11-17T17:11:23.270Z","pid":17988,"hostname":"DESKTOP-VMRN7M2","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-11-17T17:11:23.272Z","pid":17988,"hostname":"DESKTOP-VMRN7M2","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-11-17T17:11:23.276Z","pid":17988,"hostname":"DESKTOP-VMRN7M2","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-11-17T17:11:23.278Z","pid":17988,"hostname":"DESKTOP-VMRN7M2","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-11-17T17:11:23.281Z","pid":17988,"hostname":"DESKTOP-VMRN7M2","msg":"Changed active context: context=0e572115-4630-48e7-87a1-91d64ae0fec8"}
-{"level":30,"time":"2025-11-17T17:11:23.281Z","pid":17988,"hostname":"DESKTOP-VMRN7M2","msg":"Changing current active page: page=619649db-7c91-4bc3-a2bd-814812c8d4e3"}
-{"level":30,"time":"2025-11-17T17:11:23.282Z","pid":17988,"hostname":"DESKTOP-VMRN7M2","msg":"Changed active page"}
-{"level":30,"time":"2025-11-17T17:11:23.284Z","pid":17988,"hostname":"DESKTOP-VMRN7M2","msg":"Start of node method closeContext"}
-{"level":30,"time":"2025-11-17T17:11:23.297Z","pid":17988,"hostname":"DESKTOP-VMRN7M2","msg":"Removed page=d9d38830-3ddf-4f30-a25d-c2d4edbefe61 from context=0e572115-4630-48e7-87a1-91d64ae0fec8 page stack"}
-{"level":30,"time":"2025-11-17T17:11:23.301Z","pid":17988,"hostname":"DESKTOP-VMRN7M2","msg":"End of node method closeContext"}
-{"level":30,"time":"2025-11-17T17:11:23.313Z","pid":17988,"hostname":"DESKTOP-VMRN7M2","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-11-17T17:11:23.314Z","pid":17988,"hostname":"DESKTOP-VMRN7M2","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-11-17T17:11:25.382Z","pid":17988,"hostname":"DESKTOP-VMRN7M2","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2025-11-17T17:11:25.431Z","pid":17988,"hostname":"DESKTOP-VMRN7M2","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2025-11-17T17:22:36.637Z","pid":3404,"hostname":"DESKTOP-VMRN7M2","msg":"Listening on 127.0.0.1:55972"}
+{"level":30,"time":"2025-11-17T17:22:37.051Z","pid":3404,"hostname":"DESKTOP-VMRN7M2","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-11-17T17:22:37.143Z","pid":3404,"hostname":"DESKTOP-VMRN7M2","msg":"Adding browser to stack: chromium, version: 141.0.7390.37"}
+{"level":30,"time":"2025-11-17T17:22:37.144Z","pid":3404,"hostname":"DESKTOP-VMRN7M2","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-11-17T17:22:37.144Z","pid":3404,"hostname":"DESKTOP-VMRN7M2","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-11-17T17:22:37.152Z","pid":3404,"hostname":"DESKTOP-VMRN7M2","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-11-17T17:22:37.152Z","pid":3404,"hostname":"DESKTOP-VMRN7M2","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@4f48664d6a6098e1c54ead75bc7db99c\"},\"headless\":true,\"_contextStack\":[],\"id\":\"browser=a412bec6-7b61-4d7f-b9bf-2f8638afc151\"}"}
+{"level":30,"time":"2025-11-17T17:22:37.161Z","pid":3404,"hostname":"DESKTOP-VMRN7M2","msg":"Setting default timeout for context context=bad8f279-e0f7-4898-9e5c-9cf2249302ab to 10000"}
+{"level":30,"time":"2025-11-17T17:22:37.161Z","pid":3404,"hostname":"DESKTOP-VMRN7M2","msg":"Changed active context: context=bad8f279-e0f7-4898-9e5c-9cf2249302ab"}
+{"level":30,"time":"2025-11-17T17:22:37.263Z","pid":3404,"hostname":"DESKTOP-VMRN7M2","msg":"Video path: undefined"}
+{"level":30,"time":"2025-11-17T17:22:37.263Z","pid":3404,"hostname":"DESKTOP-VMRN7M2","msg":"Changed active page"}
+{"level":30,"time":"2025-11-17T17:22:38.905Z","pid":3404,"hostname":"DESKTOP-VMRN7M2","msg":"End of node method newPage"}
+{"level":30,"time":"2025-11-17T17:22:38.926Z","pid":3404,"hostname":"DESKTOP-VMRN7M2","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-17T17:22:38.936Z","pid":3404,"hostname":"DESKTOP-VMRN7M2","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-17T17:22:38.939Z","pid":3404,"hostname":"DESKTOP-VMRN7M2","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-17T17:22:38.969Z","pid":3404,"hostname":"DESKTOP-VMRN7M2","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-17T17:22:38.971Z","pid":3404,"hostname":"DESKTOP-VMRN7M2","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-17T17:22:38.996Z","pid":3404,"hostname":"DESKTOP-VMRN7M2","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-17T17:22:39.001Z","pid":3404,"hostname":"DESKTOP-VMRN7M2","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-17T17:22:39.003Z","pid":3404,"hostname":"DESKTOP-VMRN7M2","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-17T17:22:39.006Z","pid":3404,"hostname":"DESKTOP-VMRN7M2","msg":"Changed active context: context=bad8f279-e0f7-4898-9e5c-9cf2249302ab"}
+{"level":30,"time":"2025-11-17T17:22:39.006Z","pid":3404,"hostname":"DESKTOP-VMRN7M2","msg":"Changing current active page: page=79827024-3644-493a-9614-71fa42231813"}
+{"level":30,"time":"2025-11-17T17:22:39.006Z","pid":3404,"hostname":"DESKTOP-VMRN7M2","msg":"Changed active page"}
+{"level":30,"time":"2025-11-17T17:22:39.008Z","pid":3404,"hostname":"DESKTOP-VMRN7M2","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-11-17T17:22:39.013Z","pid":3404,"hostname":"DESKTOP-VMRN7M2","msg":"Removed page=1ea66679-70b1-49c2-9fb0-c5e1f7acaea2 from context=bad8f279-e0f7-4898-9e5c-9cf2249302ab page stack"}
+{"level":30,"time":"2025-11-17T17:22:39.014Z","pid":3404,"hostname":"DESKTOP-VMRN7M2","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-11-17T17:22:39.022Z","pid":3404,"hostname":"DESKTOP-VMRN7M2","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-17T17:22:39.022Z","pid":3404,"hostname":"DESKTOP-VMRN7M2","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-17T17:22:41.089Z","pid":3404,"hostname":"DESKTOP-VMRN7M2","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-11-17T17:22:41.137Z","pid":3404,"hostname":"DESKTOP-VMRN7M2","msg":"End of node method closeAllBrowsers"}
