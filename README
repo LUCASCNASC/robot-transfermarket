@@ -32,8 +32,9 @@ pip install robotframework
 pip install robotframework-browser
 rfbrowser init
 
-
 Esse comando baixa os navegadores (Chromium, Firefox, WebKit).
 
 Novo site de teste:
 https://qase.io/
+
+- Mapear cenários de teste relativos a login.
