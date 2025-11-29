@@ -3,5 +3,5 @@ Library    Browser
 Resource    ../../resources/home.resource
 
 *** Test Cases ***
-Login
+Acessar home
     Acessar página
