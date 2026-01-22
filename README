@@ -32,3 +32,38 @@ pip install robotframework-browser
 rfbrowser init
 
 Esse comando baixa os navegadores (Chromium, Firefox, WebKit).
+
+
+
+3️⃣ Resource para gerar dados fake (faker.resource)
+*** Settings ***
+Library    FakerLibrary    locale=pt_BR
+
+*** Keywords ***
+Gerar Dados de Cadastro
+    ${nome}=        FakerLibrary.Name
+    ${email}=       FakerLibrary.Email
+    ${senha}=       FakerLibrary.Password    length=10    special_chars=True
+
+    [Return]    ${nome}    ${email}    ${senha}
+
+
+👉 Assim você centraliza toda a geração de dados fake.
+
+4️⃣ Resource com keywords de tela (keywords.resource)
+*** Settings ***
+Library    Browser
+
+*** Keywords ***
+Abrir Tela de Cadastro
+    New Browser    chromium
+    New Page       https://sua-aplicacao.com/cadastro
+
+Preencher Formulario de Cadastro
+    [Arguments]    ${nome}    ${email}    ${senha}
+    Fill Text      id=nome      ${nome}
+    Fill Text      id=email     ${email}
+    Fill Text      id=senha     ${senha}
+
+Submeter Cadastro
+    Click          [data-testid="cadastrar"]
