@@ -67,7 +67,3 @@ Preencher Formulario de Cadastro
 
 Submeter Cadastro
     Click          [data-testid="cadastrar"]
-
-It is necessary to develop and specify the scenarios.
-- Integrate IA with project.
-- To do documentation of tests scenarios.
